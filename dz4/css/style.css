@@ -26,7 +26,7 @@ body{
     height: 100%;
 
 }
-.lefthead{
+.rightthead{
     float: right;
     margin-right: 40px;
     margin-top: 30px;
@@ -100,6 +100,7 @@ body{
     display: inline-block;
     text-align: center;
     width: 100%;
+    font-size: 15px;
 }
 
 
@@ -146,36 +147,52 @@ ul.submenu .first {
     border-top: 7px solid white; /* Добавляем треугольник */
 
 }
-.news{
-    display: block;
-    float: right;
-    height: 121vh;
+
+
+
+.fon3 {/* фон для правой колонки (желтый) */
+    width: 100%;
+    overflow: hidden;
 }
+
+
 .inform{
-    display: block;
+    width: 20%;
     float: left;
-    height: 121vh;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px
 }
-.content{
+.content_centr{
+    width: 55.5%;
     float: left;
-    width: 53%;
-    padding: 1%;
-    height: 100vh   ;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+
+}
+.news{
+    width: 20%;
+    float: left;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    text-align: right;
+
+
 }
 .news,
 .inform
 {
-    padding: 1%;
-    width: 20%;
+    padding-left:  1%;
+    padding-right: 1%;
+    padding-top: 1%;
     background-color: #edeef0;
     border-left: 1px solid #c7cacf;
     border-right: 1px solid #c7cacf;
 }
-.content h2,
+.content_centr h2,
 .news h2,
 .inform h2{
     text-align: center;
-    line-height: 23px;
+    line-height: 25px;
     color: #424c43;
     font-family: Tahoma;
     font-weight: bold;
@@ -186,11 +203,12 @@ ul.submenu .first {
     color: #424c43;
     font-family: Tahoma;
     padding: 1px;
+    line-height: 15px;
 
 }
 
-.content h2,
-.content p{
+.content_centr h2,
+.content_centr p{
     color: black;
     padding: 5px;
     line-height: 20px;
